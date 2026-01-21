@@ -33,6 +33,7 @@ flowstate/
 │   └── exploration.ipynb # Data Visualization & Feature Engineering proof
 ├── data/               # (GitIgnored) Local storage for privacy
 └── requirements.txt    # Dependencies
+```
 ⚡ Quick Start
 1. Installation
 Bash
