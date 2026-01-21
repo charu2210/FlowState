@@ -22,7 +22,7 @@ By training an **Isolation Forest** (Unsupervised Learning) on a user's baseline
 * **Input Monitoring:** Pynput (Hooks for low-level hardware interrupts)
 
 ## 📂 Project Structure
-```bash
+```
 flowstate/
 ├── src/
 │   ├── logger.py       # Data Collection: Captures raw flight-time metrics
@@ -35,22 +35,22 @@ flowstate/
 └── requirements.txt    # Dependencies
 ```
 ⚡ Quick Start
-1. Installation
-Bash
+1. Installation:
+```
 
-git clone [https://github.com/YourUsername/FlowState.git](https://github.com/YourUsername/FlowState.git)
+git clone https://github.com/charu2210/FlowState.git
 cd FlowState
 pip install -r requirements.txt
 2. Phase 1: Data Collection (Calibration)
 Run the logger in the background while you work/study for 15-20 minutes to establish a baseline.
 
-Bash
+```
 
 python src/logger.py
 3. Phase 2: Training
 Train the anomaly detector on the data you just collected.
 
-Bash
+```
 
 python src/train_model.py
 Output: ✅ Model saved successfully to src/flowstate_model.pkl
@@ -58,8 +58,7 @@ Output: ✅ Model saved successfully to src/flowstate_model.pkl
 4. Phase 3: Live Deployment
 Start the real-time monitor. It will silently watch your rhythm and alert you if you show signs of fatigue.
 
-Bash
-
+```
 python src/live_monitor.py
 📊 The Science: Why it works
 According to the Yerkes-Dodson Law, performance improves with arousal up to a point, after which it drops. In typing, this drop manifests as:
@@ -78,18 +77,5 @@ FlowState detects these micro-deviations that are invisible to the naked eye but
 [ ] "Grayscale Mode" trigger to gently nudge users to take a break.
 
 📜 License
-MIT License - Open for Academic and Personal Use.
+MIT License - Open for Academic and Personal Use
 
-
----
-
-### **Final Polish**
-1.  **Run the Notebook** again to get that `dynamics_plot.png`.
-2.  **Commit & Push** everything (`src`, `notebooks`, `requirements.txt`, `README.md`, and the `png` image).
-
-**You now have a portfolio piece that claims:**
-* "I know Data Science (Isolation Forest)."
-* "I know Software Engineering (Modular Code)."
-* "I know Research (Keystroke Dynamics)."
-
-**Go build it.**
