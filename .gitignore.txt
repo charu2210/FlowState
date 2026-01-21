@@ -1,0 +1,12 @@
+# Ignore Data
+data/
+*.csv
+*.log
+
+# Ignore Python Cache
+__pycache__/
+*.pyc
+
+# Ignore Environment
+.env
+venv/
