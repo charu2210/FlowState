@@ -71,9 +71,9 @@ According to the Yerkes-Dodson Law, performance improves with arousal up to a po
 FlowState detects these micro-deviations that are invisible to the naked eye but statistically significant to the model.
 
 🔮 Future Roadmap
-* **Integration with OpenCV for Blink Rate detection (Multimodal Analysis).
-* * **Migration of the inference engine to C++ for lower memory footprint.
-* **"Grayscale Mode" trigger to gently nudge users to take a break.
+* Integration with OpenCV for Blink Rate detection (Multimodal Analysis).
+* Migration of the inference engine to C++ for lower memory footprint.
+* "Grayscale Mode" trigger to gently nudge users to take a break.
 
 📜 License
 MIT License - Open for Academic and Personal Use
