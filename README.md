@@ -41,18 +41,19 @@ flowstate/
 git clone https://github.com/charu2210/FlowState.git
 cd FlowState
 pip install -r requirements.txt
+```
 2. Phase 1: Data Collection (Calibration)
 Run the logger in the background while you work/study for 15-20 minutes to establish a baseline.
 
 ```
-
 python src/logger.py
+```
 3. Phase 2: Training
 Train the anomaly detector on the data you just collected.
 
 ```
-
 python src/train_model.py
+```
 Output: ✅ Model saved successfully to src/flowstate_model.pkl
 
 4. Phase 3: Live Deployment
@@ -60,21 +61,19 @@ Start the real-time monitor. It will silently watch your rhythm and alert you if
 
 ```
 python src/live_monitor.py
+```
 📊 The Science: Why it works
 According to the Yerkes-Dodson Law, performance improves with arousal up to a point, after which it drops. In typing, this drop manifests as:
 
-Increased Flight Time Variance: The rhythm becomes "jagged."
-
-Micro-Pauses: Unconscious delays between familiar bigrams.
+1. Increased Flight Time Variance: The rhythm becomes "jagged."
+2. Micro-Pauses: Unconscious delays between familiar bigrams.
 
 FlowState detects these micro-deviations that are invisible to the naked eye but statistically significant to the model.
 
 🔮 Future Roadmap
-[ ] Integration with OpenCV for Blink Rate detection (Multimodal Analysis).
-
-[ ] Migration of the inference engine to C++ for lower memory footprint.
-
-[ ] "Grayscale Mode" trigger to gently nudge users to take a break.
+~ Integration with OpenCV for Blink Rate detection (Multimodal Analysis).
+~ Migration of the inference engine to C++ for lower memory footprint.
+~ "Grayscale Mode" trigger to gently nudge users to take a break.
 
 📜 License
 MIT License - Open for Academic and Personal Use
