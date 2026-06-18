@@ -1,0 +1,4 @@
+Model,AUC_ROC,Avg_Precision
+OneClassSVM,0.963,0.9772
+IsolationForest,0.9394,0.9226
+LocalOutlierFactor,0.9183,0.9321

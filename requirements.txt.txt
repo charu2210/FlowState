@@ -1,0 +1,7 @@
+pynput
+pandas
+numpy
+scikit-learn
+scipy
+joblib
+matplotlib

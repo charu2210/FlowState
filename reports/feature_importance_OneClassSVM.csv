@@ -1,0 +1,8 @@
+feature,importance,std
+hjorth_mobility,-0.001131,0.001775
+skewness,-0.04213,0.006362
+entropy,-0.043056,0.006072
+mean_iki,-0.065069,0.003143
+excess_kurtosis,-0.07334,0.008372
+coeff_variation,-0.141741,0.006533
+std_iki,-0.146143,0.005805
